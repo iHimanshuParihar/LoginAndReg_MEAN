@@ -1,0 +1,17 @@
+<mat-card>
+    <main class="main">
+      <div class="container">
+        <section class="wrapper">
+<form [formGroup]="updateForm" class="form">
+    <div class="input-control">
+        <label for="name" class="input-label" hidden>Update Name</label>
+        <input type="name" name="name" id="name" class="input-field" placeholder="Name" formControlName="Name"/>
+    </div>
+    <div class="input-control">
+        <button mat-raised-button (click)="changeName($event)">Update</button>
+    </div>
+</form>
+</section>
+</div>
+</main>
+</mat-card>

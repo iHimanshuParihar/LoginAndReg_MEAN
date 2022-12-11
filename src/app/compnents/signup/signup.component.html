@@ -1,0 +1,30 @@
+<mat-card>
+<main class="main">
+    <div class="container">
+        <section class="wrapper">
+            <div>
+                <h1 class="text">Register</h1>
+            </div>
+            <hr />
+
+            <form [formGroup]="signUpform" class="form">
+                <div class="input-control">
+                    <label for="name" class="input-label" hidden>Name</label>
+                    <input type="name" name="name" id="name" class="input-field" placeholder="Name" formControlName="Name"/>
+                </div>
+                <div class="input-control">
+                    <label for="email" class="input-label" hidden>Email Address</label>
+                    <input type="email" name="email" id="email" class="input-field" placeholder="Email Address" formControlName="Email"/>
+                </div>
+                <div class="input-control">
+                    <label for="password" class="input-label" hidden>Password</label>
+                    <input type="password" name="password" id="password" class="input-field" placeholder="Password" formControlName="Password"/>
+                </div>
+                <div class="input-control">
+                    <button mat-raised-button (click)="signUp()">Register</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</main>
+</mat-card>

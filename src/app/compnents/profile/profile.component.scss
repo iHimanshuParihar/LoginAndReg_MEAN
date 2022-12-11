@@ -1,0 +1,23 @@
+
+  mat-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 400px;
+  }
+  .container{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    font-family: monospace;
+  }
+  button{
+    width: 100%;
+    background-color: rgb(238, 65, 65);
+    font-weight: 10px;
+    font-family: monospace;
+  }
+  p{
+    padding: 20px;
+  }
